@@ -1,12 +1,9 @@
 package com.wheelDestiny.HBase.AVRO;
 
-import com.wheelDestiny.HBase.MR.Orc2Hfile;
 import com.wheelDestiny.HBase.Util.JobRunResult;
 import com.wheelDestiny.HBase.Util.JobRunUtil;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles;
 import org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob;
 import org.apache.hadoop.mapreduce.lib.jobcontrol.JobControl;
 import org.apache.hadoop.util.Tool;
