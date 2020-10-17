@@ -1,0 +1,47 @@
+{
+	"type": "record",
+	"name": "dwd_shop_access",
+	"namespace": "hainiu",
+	"fields": [{
+			"name": "ip",
+			"type": ["null", "long"],
+			"default": null
+		}, {
+			"name": "time",
+			"type": ["null", "long"],
+			"default": null
+		}, {
+			"name": "requestType",
+			"type": ["null", "string"],
+			"default": null
+		}, {
+			"name": "requestURL",
+			"type": ["null", "string"],
+			"default": null
+		}, {
+			"name": "status",
+			"type": ["null", "string"],
+			"default": null
+		}, {
+			"name": "refer",
+			"type": ["null", "string"],
+			"default": null
+		},{
+			"name": "agent",
+			"type": ["null", "string"],
+			"default": null
+		}, {
+			"name": "requestAttr",
+			"type": ["null", { "type": "map","values": "string"}],
+			"default": null
+		}, {
+			"name": "cookie",
+			"type": ["null", "string"],
+			"default": null
+		},{
+			"name": "logonName",
+			"type": ["null", "string"],
+			"default": null
+		}
+	]
+}
