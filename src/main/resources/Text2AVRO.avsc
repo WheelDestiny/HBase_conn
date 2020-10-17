@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "RunRecord",
+  "namespace": "wheeldestiny",
+  "fields": [{
+        "name": "aid",
+        "type": ["null", "string"],
+        "default": null
+    }, {
+          "name": "pkgname",
+          "type": ["null", "string"],
+          "default": null
+      }, {
+          "name": "uptime",
+          "type": "long",
+          "default": -1
+      }, {
+          "name": "type",
+          "type": "int",
+          "default": -1
+      }, {
+          "name": "country",
+          "type": ["null", "string"],
+          "default": null
+      }
+  ]
+}
